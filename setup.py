@@ -48,6 +48,6 @@ def parse(filename):
 for line in parse('finefoods.txt.gz'):
   review_model = ReviewModel(line)
   #Writing all the data to the csv
-  writer.writerow([review_model.product_id, review_model.user_id, review_model.profile_name, review_model.helpfulness, review_model.score, review_model.time, review_model.summary, review_model.time])
-
+  writer.writerow([review_model.product_id, review_model.user_id, review_model.profile_name, review_model.helpfulness, review_model.score, review_model.time, review_model.summary, review_model.text])
+  
 file.close()  
