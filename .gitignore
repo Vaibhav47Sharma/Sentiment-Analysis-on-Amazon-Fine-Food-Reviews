@@ -3,3 +3,6 @@
 *.gzip
 *.gz
 *.zip
+
+# Ignore ipython checkpoints
+*.ipynb_checkpoints
