@@ -6,3 +6,6 @@
 
 # Ignore ipython checkpoints
 *.ipynb_checkpoints
+
+#Ignoring model files
+*.model
