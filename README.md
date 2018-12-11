@@ -1,10 +1,12 @@
-# sys6018-final-project
+## sys6018-final-project
 Data Mining Final Project
 
-### Setup
-#### Get the dataset-
-python setup.py
+There are 3 relevant files-
+### 1) Setup- setup.py
+#### This is the file that downloads the dataset from SNAP and converts it into a human readable csv file. To execute it run python setup.py
 
-### Preprocessing and EDA notebook- PP_EDA
-### Data modelling notebook- data_modelling
-#### Rest all are intermediary files. The above 2 notebooks and the setup file have all our final work.
+### 2) Preprocessing and EDA notebook- PP_EDA.ipynb
+#### This Jupyter Notebook does the initial data pre- processing. It further contains the Exploratory Data Analysis.
+
+### 3) Data modelling notebook- data_modelling.ipynb
+#### This Jupyter Notebook contains the code for the processes involved in modelling such as selection, feature extraction, model validation, etc. to classify the sentiment of the Amazon Fine Food Review. 
