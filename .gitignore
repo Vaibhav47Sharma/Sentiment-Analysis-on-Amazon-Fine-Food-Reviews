@@ -9,3 +9,13 @@
 
 #Ignoring model files
 *.model
+
+#Ignoring.npy files
+*.npy
+
+#Ignoring .gensim files
+*.gensim
+
+*.id2word
+*.state
+

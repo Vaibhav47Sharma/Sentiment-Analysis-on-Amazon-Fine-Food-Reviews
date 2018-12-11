@@ -6,3 +6,14 @@
 
 # Ignore ipython checkpoints
 *.ipynb_checkpoints
+
+#Ignoring model files
+*.model
+
+#Ignoring.npy files
+*.npy
+
+#Ignoring .gensim files
+*.gensim
+
+*.id2
